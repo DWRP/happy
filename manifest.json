@@ -1,0 +1,9 @@
+{
+    "vendor":"dwrp",
+    "name":"happy",
+    "description": "Next Level Week Application from Rocketseat",
+    "version":"0.0.1",
+    "author":"https://github.com/DWRP",
+    "repository":"https://github.com/DWRP/happy",
+    "$schema": "http://json-schema.org/draft-07/schema"
+}
