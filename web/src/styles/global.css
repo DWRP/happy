@@ -1,0 +1,25 @@
+:root{
+    --primary-light-color: #FFF;
+    --primary-light-bg: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    
+    --secudary-light-bg: #EBF2F5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-light-color);
+    background: var(--secudary-light-bg);
+}
+
+body,
+input,
+button,
+textarea{
+    font: 600 18px 'Nunito', sans-serif;
+}

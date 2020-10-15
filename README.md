@@ -9,18 +9,38 @@ Semana intensiva e gratuita de programação, fornecido pela [Rocketseat](https:
 
 ## Instalar
 
-Após clonar o projeto, para Instalar as dependencias do `FRONTEND` da aplicação:
+Após clonar, rode os comandos abaixo:
 
-```bash
+**BACKEND - TERMINAL 1**:
+
+```cmd
+    cd backend
+    yarn install
+```
+
+**WEB APP - TERMINAL 2**:
+
+```cmd
     cd web
     yarn install
 ```
 
 ## Executar
 
-Após clonar o projeto, para rodar o `FRONTEND` da aplicação, após já ter instalado:
+Para rodar, utilize os comandos abaixo:
 
-```bash
+*OBS: o comando **CD** só é necessário caso você não esteja nas respectivas pastas*
+
+**BACKEND - TERMINAL 1**:
+
+```cmd
+    cd backend
+    yarn dev
+```
+
+**WEB APP - TERMINAL 2**:
+
+```cmd
     cd web
     yarn start
 ```
