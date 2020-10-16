@@ -1,6 +1,6 @@
 {
   "name": "@happy/backend",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "main": "server.ts",
   "description": "Backend to Next Level Week Application from Rocketseat",
   "repository": "https://github.com/DWRP/happy",

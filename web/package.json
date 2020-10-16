@@ -1,6 +1,6 @@
 {
   "name": "@happy/web",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "Frontend to Next Level Week Application from Rocketseat",
   "private": true,
   "dependencies": {

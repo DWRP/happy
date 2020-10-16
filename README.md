@@ -1,4 +1,4 @@
-# DIO - REACT
+# Happy
 
 Next Level Week Application from Rocketseat
 
@@ -7,7 +7,26 @@ Next Level Week Application from Rocketseat
 
 Semana intensiva e gratuita de programação, fornecido pela [Rocketseat](https://rocketseat.com.br/), trabalhando com a stack mais atual do ecossistema web, stack inclui React, Node e React Native.
 
-## Instalar
+![HAPPY_WEB](backend/public/assets/images/HAPPY_WEB.png)
+![HAPPY_MOBILE](backend/public/assets/images/HAPPY_MOBILE.png)
+
+## Configuração
+
+Para funcionar corretamente, algumas coisas precisam ser configuradas:
+
+Altere os arquivos `.env` das pastas `BACKEND` e `WEB`.
+
+    BASE_URL: URL do backend para a view (default: localhost:8080)
+    REACT_APP_API_URL: URL do backend para API
+    REACT_APP_MAPBOX_TOKEN: Token do mapa MAPBOX.
+
+MAPBOX_TOKEN pode ser alterado para qualquer nome. E o mapa pode ser alterado no TitleLayer em `web/src/pages/OrphanagesMap/index.tsx`
+
+Forneça uma chave MAPBOX para poder usar o mapa sem problemas.
+
+Para o `MOBILE` funcionar corretamente, altere `baseURL` em `mobile/src/services/api` para o link do seu backend. Não use `localhost` nesse caso, use o IP da sua maquina, caso local, ou use a URL do seu backend caso ele já esteja hospedado. Em emuladores é possível usar `localhost` em alguns emuladores.
+
+## Instalação
 
 Após clonar, rode os comandos abaixo:
 
@@ -25,7 +44,15 @@ Após clonar, rode os comandos abaixo:
     yarn install
 ```
 
-## Executar
+**MOBILE APP - TERMINAL 3**:
+
+```cmd
+    yarn global add expo
+    cd mobile
+    yarn install
+```
+
+## Execução
 
 Para rodar, utilize os comandos abaixo:
 
@@ -44,6 +71,15 @@ Para rodar, utilize os comandos abaixo:
     cd web
     yarn start
 ```
+
+**MOBILE APP - TERMINAL 3**:
+
+```cmd
+    cd mobile
+    yarn start
+```
+OBS: Para visualizar o app, utilize o aplicativo Expo, disponível nas lojas de aplicativo. Scaneie o QR code, ou rode o app em modo tunel `yarn start --tunnel` para acessar através de um link colável no app do expo.
+
 
 ## Meta
 
